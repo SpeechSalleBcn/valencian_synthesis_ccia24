@@ -1,0 +1,6 @@
+Ruta a la carpeta d'àudios des del index.html
+../../media/Test/CCIA2024/
+
+
+
+
