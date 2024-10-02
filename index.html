@@ -2,76 +2,164 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CCIA 24 Results</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
-<h1>Speech synthesis of Valencian using a conditional
-    variational autoencoder with adversarial learning</h1>
-<h2>Audio Samples</h2>
-<h3>Frase 1</h3>
-<h4>Fine-tuning 30min</h4>
-<audio controls src="media/Test/CCIA2024/2g_03_01_01.wav"></audio>
-<h4>Fine-tuning 7h</h4>
-<audio controls src="media/Test/CCIA2024/2d_03_01_01.wav"></audio>
-<h4>Training 7h</h4>
-<audio controls src="media/Test/CCIA2024/2b_03_02_01.wav"></audio>
-<h4>Aina</h4>
-<audio controls src="media/Test/CCIA2024/A_03_01.wav"></audio>
-<h4>Natural</h4>
-<audio controls src="media/Test/CCIA2024/RF_03_01.wav"></audio>
+<body class="bg-light">
 
-<h3>Frase 2</h3>
-<h4>Fine-tuning 30min</h4>
-<audio controls src="media/Test/CCIA2024/2g_03_01_02.wav"></audio>
-<h4>Fine-tuning 7h</h4>
-<audio controls src="media/Test/CCIA2024/2d_03_01_02.wav"></audio>
-<h4>Training 7h</h4>
-<audio controls src="media/Test/CCIA2024/2b_03_02_02.wav"></audio>
-<h4>Aina</h4>
-<audio controls src="media/Test/CCIA2024/A_03_02.wav"></audio>
-<h4>Natural</h4>
-<audio controls src="media/Test/CCIA2024/RF_03_02.wav"></audio>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Speech synthesis of Valencian using a conditional variational autoencoder with adversarial learning</h1>
 
-<h3>Frase 3</h3>
-<h4>Fine-tuning 30min</h4>
-<audio controls src="media/Test/CCIA2024/2g_03_01_03.wav"></audio>
-<h4>Fine-tuning 7h</h4>
-<audio controls src="media/Test/CCIA2024/2d_03_01_03.wav"></audio>
-<h4>Training 7h</h4>
-<audio controls src="media/Test/CCIA2024/2b_03_01_03.wav"></audio>
-<h4>Aina</h4>
-<audio controls src="media/Test/CCIA2024/A_03_03.wav"></audio>
-<h4>Natural</h4>
-<audio controls src="media/Test/CCIA2024/RF_03_03.wav"></audio>
+        <h2 class="mb-4">Audio Samples</h2>
 
-<h3>Frase 4</h3>
-<h4>Fine-tuning 30min</h4>
-<audio controls src="media/Test/CCIA2024/2g_03_01_04.wav"></audio>
-<h4>Fine-tuning 7h</h4>
-<audio controls src="media/Test/CCIA2024/2d_03_01_04.wav"></audio>
-<h4>Training 7h</h4>
-<audio controls src="media/Test/CCIA2024/2b_03_01_04.wav"></audio>
-<h4>Aina</h4>
-<audio controls src="media/Test/CCIA2024/A_03_04.wav"></audio>
-<h4>Natural</h4>
-<audio controls src="media/Test/CCIA2024/RF_03_04.wav"></audio>
+        <!-- Frase 1 -->
+        <div class="mb-4">
+            <h3>Frase 1</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Fine-tuning 30min</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2g_03_01_01.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Fine-tuning 7h</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2d_03_01_01.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Training 7h</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2b_03_02_01.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Aina</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/A_03_01.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Natural</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/RF_03_01.wav"></audio>
+                </div>
+            </div>
+        </div>
 
-<h3>Frase 5</h3>
-<h4>Fine-tuning 30min</h4>
-<audio controls src="media/Test/CCIA2024/2g_03_01_05.wav"></audio>
-<h4>Fine-tuning 7h</h4>
-<audio controls src="media/Test/CCIA2024/2d_03_02_05.wav"></audio>
-<h4>Training 7h</h4>
-<audio controls src="media/Test/CCIA2024/2b_03_01_05.wav"></audio>
-<h4>Aina</h4>
-<audio controls src="media/Test/CCIA2024/A_03_05.wav"></audio>
-<h4>Natural</h4>
-<audio controls src="media/Test/CCIA2024/RF_03_05.wav"></audio>
+        <!-- Frase 2 -->
+        <div class="mb-4">
+            <h3>Frase 2</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Fine-tuning 30min</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2g_03_01_02.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Fine-tuning 7h</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2d_03_01_02.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Training 7h</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2b_03_02_02.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Aina</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/A_03_02.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Natural</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/RF_03_02.wav"></audio>
+                </div>
+            </div>
+        </div>
 
-<footer>
-    <p>Joan Aragó</p>
-    <p>Marc Freixes <a href="marc.freixes@salle.url.edu">marc.freixes@salle.url.edu</a></p>
-    <p>Human-Environment Research (HER) group, La Salle - Universitat Ramon Llull</p>
-</footer>
+        <!-- Repeat for Frase 3, 4, 5 -->
+        <!-- Frase 3 -->
+        <div class="mb-4">
+            <h3>Frase 3</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Fine-tuning 30min</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2g_03_01_03.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Fine-tuning 7h</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2d_03_01_03.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Training 7h</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2b_03_01_03.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Aina</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/A_03_03.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Natural</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/RF_03_03.wav"></audio>
+                </div>
+            </div>
+        </div>
+        <!-- Frase 4 -->
+        <div class="mb-4">
+            <h3>Frase 4</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Fine-tuning 30min</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2g_03_01_04.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Fine-tuning 7h</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2d_03_01_04.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Training 7h</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2b_03_01_04.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Aina</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/A_03_04.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Natural</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/RF_03_04.wav"></audio>
+                </div>
+            </div>
+        </div>
+        <!-- Frase 5 -->
+        <div class="mb-4">
+            <h3>Frase 5</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Fine-tuning 30min</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2g_03_01_05.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Fine-tuning 7h</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2d_03_02_05.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Training 7h</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/2b_03_01_05.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Aina</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/A_03_05.wav"></audio>
+                </div>
+                <div class="col-md-4">
+                    <h4>Natural</h4>
+                    <audio class="w-100 mb-3" controls src="media/Test/CCIA2024/RF_03_05.wav"></audio>
+                </div>
+            </div>
+        </div>        
+
+
+        <footer class="text-center py-4">
+            <p>Joan Aragó</p>
+            <p>Marc Freixes <a href="mailto:marc.freixes@salle.url.edu">marc.freixes@salle.url.edu</a></p>
+            <p>Human-Environment Research (HER) group, La Salle - Universitat Ramon Llull</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
